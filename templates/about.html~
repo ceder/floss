@@ -1,0 +1,33 @@
+{% extends "base_content.html" %}
+<!-- template about.html -->
+{% load i18n %}
+{% load extra_tags %}
+{% load humanize %}
+{% block title %}{% spaceless %}{% trans "About" %}{% endspaceless %}{% endblock %}
+{% block forejs %}
+{% endblock %}
+{% block content %}
+<div class="headNormal">
+{% trans "About" %}
+</div>
+
+<div class="content">
+<div style="padding:20px;">
+	<p style="font-weight:bold;">
+   Witaj na floss.pl
+        </p>
+        <p>Portal skierowany jest do osób ,które korzystają z oprogramowania typu floss.</p>
+        <p>
+          Portal ma na celu pomóc wymianie informacji między użytkownikami różnych dystrybucji linuxa.Dzięki użyciu tagów portal nie jest podzielony
+          na konkretne kategorie.
+        </p> 
+        <p>
+          Aby zmotywować użytkowników do zadawania pytań i udzielania odpowiedzi wprowadziliśmy system punktacji jego szczegóły możesz poznać w faq
+        </p> 
+        <p>
+         Jeżeli macie jakieś pytania prosimy kierować je pod nasz adres email:
+       </p> 
+</div>
+</div>
+{% endblock %}
+<!-- end template about.html -->
